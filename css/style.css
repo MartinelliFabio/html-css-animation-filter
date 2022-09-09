@@ -140,6 +140,38 @@
     animation: round11 2s linear;
 }
 
+/* ! Twelfth exercise */
+@keyframes animationTop {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes animationBottom {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        rigth: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: animationTop 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: animationBottom 2s linear;
+}
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -154,6 +186,7 @@
     text-align: center;
     text-decoration: none;
 }
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -162,6 +195,7 @@
     width: 60px;
     height: 20px;
 }
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
