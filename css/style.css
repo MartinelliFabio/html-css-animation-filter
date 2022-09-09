@@ -107,9 +107,19 @@
     border-radius: 25px;
 }
 
+/* ! Tenth exercise */
+@keyframes round {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-10-icon {
     font-size: 60px;
+    animation: round 1s linear infinite;
 }
+
+
 .ex-11-icon {
     font-size: 60px;
 }
