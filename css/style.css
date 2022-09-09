@@ -119,10 +119,28 @@
     animation: round 1s linear infinite;
 }
 
+/* ! Eleventh exercise */
+@keyframes round11 {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: round11 2s linear;
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
