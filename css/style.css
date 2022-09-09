@@ -93,10 +93,20 @@
     filter: sepia(70%);
 }
 
+/* ! Ninth exercise */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
+
+.ex-9-img:hover {
+    filter: grayscale(1);
+    filter: sepia(90%);
+    scale: 1.5;
+    border-radius: 25px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
